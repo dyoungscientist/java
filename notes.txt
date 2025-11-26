@@ -1,0 +1,41 @@
+// statements in pl are instructions given to a computer to execute
+// in java the statements are executed one by one in the order they were written
+// there are 2 print methods; println or print
+// println prints this line, thereby creating a new line for each code execution
+// print prints each statements on the same line
+// you don't need quotation for numbers and you can even perform algebraic operations inside
+// i'm not going to lie this feels like c++ truly
+/* multi line commenting */
+/* as we know variables are value storing containers,
+in java we have diff variables: String, int, float variables; for point decimals, char variables; for single characters, Boolean variables; stores true or false values, 
+CREATING DIFF VARIABLES TYPES
+1. String name ="Dara";
+System.out.println(name);
+2. int Num = 23;
+System.out.println(Num);
+3. char grade = 'X';
+System.out.println(grade);
+4. float twe = 2.333f;
+System.out.println(twe);
+5. Boolean bool= true;
+System.out.println(bool);*/
+// identfiers make it easy to understand the meaning of the variable
+//int minutesPerHour = 60; // pretty slef explanatory
+//int m = 60; // not so explanatory
+// Constants ; variables declared with final becomes unchanged a baiscally a readonly variable, use it for values that should not change, let's say real stuff
+// yh we have two types of data type; primitive and non primitive datatype 
+// Primitive: byte, short, int, long, float, double, boolean and char 
+
+Constructor, is used to initialize or instatitae an object or variable 
+implicit, default constructor, is  not definrd by anyone, the compiler does it for you, impicit is hiding
+e.g Rectanglez x = ne Rectanglez() is an implicit constructorit can also be explicitly defined
+public Rectanglez (){
+ this is also a default constructor, it is explicit, there are no arguments passed which makes it default
+}
+public Myclass {}// this is a default constructor
+Parameterized Constructor: Public Rectanglez (intl, intb){
+    length=l;
+    breadth=b;
+}
+
+
