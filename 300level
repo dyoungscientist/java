@@ -1,0 +1,8 @@
+class Student{
+  String model;
+  int year;
+  Car(){
+  model="unknown";
+  year=0;
+  }
+  
